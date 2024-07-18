@@ -52,7 +52,7 @@ This image shows the navigation bar
 
 ## Education Section
 
-has animation and timeline.
+Has animations and timeline. Gives my educational history.
 ![image](https://github.com/user-attachments/assets/b9c0841f-d176-4f3a-8ac1-489983152320)
 ![image](https://github.com/user-attachments/assets/82946734-bb1c-420e-bf06-cd1831161408)
 
