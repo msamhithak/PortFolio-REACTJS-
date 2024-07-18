@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Suez+One&effect=anaglyph");
+@import url("https://fonts.googleapis.com/css?family=Bitter&effect=anaglyph");
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 120px;
+    overflow: hidden;
+}
+.a-left{
+    padding-top:140px;
+    width:50%;
+}
+
+.a-left img{
+    width: 400px;
+    padding-left:1px;
+    border: 0.1875em solid #c9e23a;
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(235, 239, 211, 0.973);
+}
+
+.a-right{
+    flex:1;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 20px;
+    span{
+        color: rgb(225, 242, 41);
+        font-weight:bold;
+        word-spacing: 3px;
+    }
+}
+.a-right .title{
+    font-family: 'Suez One', serif;
+    font-size: 60px;
+    padding-top: 80px;
+}
+.a-right .content{
+    padding-top: 60px;
+    word-spacing: 5px;
+    font-family: 'Bitter', serif;
+    line-height: 24px;
+    color: rgb(185, 184, 184);
+    text-align: justify;
+}

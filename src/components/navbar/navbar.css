@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Acme");
+.navbar{
+    height: 80px;
+}
+
+.navbar .wrapper{
+    max-width: 920px;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 100%;
+}
+.navbar .wrapper span{
+    font-family: 'Nova Square', sans-serif;        
+}   
+
+.navbar .wrapper button{
+    padding: 3px 6px 3px 6px;
+line-height: 30px;
+background-color: #f0f4f6;
+border: none;
+border-radius: 20px;
+box-shadow: 0 2px 16px 0 rgb(224, 175, 175), 0 6px 20px 0 rgba(0,0,0,0.19);
+font-family:'Acme',sans-serif;
+height: 2.6rem;
+width:8rem;
+cursor:pointer;        
+}
+.navbar .wrapper button:hover{
+    box-shadow: 0 2px 16px 0 rgba(243, 230, 117, 0.825), 0 6px 20px 0 rgb(242, 242, 218);
+    cursor: pointer;
+}
+.navbar .wrapper button img{
+    width: 20px;
+    height: 20px;
+    vertical-align:text-bottom;
+}

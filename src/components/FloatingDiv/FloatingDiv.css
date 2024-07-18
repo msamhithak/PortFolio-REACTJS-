@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Lemon");
+
+
+.floatingdiv{
+    justify-content: space-around;
+    background: white;
+    box-shadow:  rgba(243, 230, 117, 0.825);
+    border-radius:17px ;
+    color: rgb(14, 125, 216);
+    width:120px;
+    text-align: center;
+    height: 3.5rem;
+    padding-top: 8px;
+    padding-right:8px;
+}
+.floatingdiv>span{
+    font-family: 'Lemon',serif;
+}

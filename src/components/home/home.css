@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Amarante&effect=shadow-multiple|3d");
+
+
+.home{
+    display: flex;
+    height: 77vh;
+    margin-top:6rem;
+    padding-left: 140px;
+    padding-right: 150px;
+    overflow: hidden;
+}
+.i-left{
+    display: flex;
+    flex-direction:column;
+    width:50%;
+    gap:2rem;
+}
+
+.home .i-left .i-name{
+    font-family: 'Amarante',serif;
+    display:flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2){
+    color:#FAED26;
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.i-name>:nth-child(3){
+    font-weight:100;
+    color:#a9d3e2;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 6rem;
+    height: 2.2rem;
+}
+.home button{
+    padding: 3px 6px 3px 6px;
+    line-height: 30px;
+    background-color: #f0f4f6;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 16px 0 rgb(224, 175, 175), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family:'Acme',sans-serif;
+    cursor:pointer;
+}
+.i-icons{
+    margin-top: 2rem;
+    gap:0rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.i-icons a img{
+    width: 50px;
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.home button:hover{
+    box-shadow: 0 2px 16px 0 rgba(243, 230, 117, 0.825), 0 6px 20px 0 rgb(242, 242, 218);
+}
+
+.i-right{
+    position: relative;
+    flex:1;
+    width:50%;
+}
+
+.i-right>*{
+    position:absolute;
+    z-index:1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(1.02);
+    left:5%;
+    top:-50px;
+    
+}
+.i-right>:nth-child(2){
+    top:-77px;
+    left:10%;
+    transform:scale(0.93);
+}
+
+.i-right>:nth-child(3){
+    transform:scale(1.5);
+    top:-10%;    
+    left:15%;
+}
+
+.text2{
+    justify-content: space-around;
+    background: white;
+    box-shadow:  rgba(243, 230, 117, 0.825);
+    border-radius:17px ;
+    color: rgb(14, 125, 216);
+    width:140px;
+    text-align: center;
+    padding-top: -40px;
+    padding-bottom: 8px;
+    padding-left:9px;
+}
+
+.i-right>:nth-child(4){
+    transform:scale(0.48);
+    top:-13.5%;
+    left:-14%;
+    padding:0;
+    border-radius: 50%;    
+}
+.i-right>:nth-child(5){
+    transform:scale(0.68);
+    bottom:18%;
+    left:95%;
+    padding:0;
+    border-radius: 50%;    
+}
+
+
